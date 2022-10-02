@@ -35,3 +35,34 @@ nav ul li {
         font-size: 12px;
         text-decoration: underline;
 }
+
+section {
+        margin-top: 50px;
+        width: 600px;
+        float: left;
+        margin-left: 100px;
+}
+
+aside {
+        margin-top: 50px;
+        width: 200px;
+        float: right;
+        border: solid 3px black;
+        margin-right: 50px;
+}
+
+figure {
+        margin: 5px;
+}
+
+figure img {
+        max-width: 500px;
+}
+
+aside figure img {
+        max-width: 190px;
+}
+
+footer {
+        clear: both;
+}
