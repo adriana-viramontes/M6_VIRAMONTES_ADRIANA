@@ -41,6 +41,7 @@ section {
         width: 600px;
         float: left;
         margin-left: 100px;
+        margin-bottom: 50px;
 }
 
 section h3 {
@@ -93,5 +94,10 @@ figure {
 }
 
 footer {
+        color: white;
+        font-size: 10px;
+        background-color: navy;
+        text-align: center;
+        padding: 25px;
         clear: both;
 }
