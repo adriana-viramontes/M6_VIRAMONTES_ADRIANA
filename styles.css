@@ -43,6 +43,25 @@ section {
         margin-left: 100px;
 }
 
+section h3 {
+        color: teal;
+        font-size: 24px;
+        text-align: center;
+        margin-top: 0;
+}
+
+section figure img {
+        max-width: 550px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+section figcaption {
+        text-align: center;
+        padding-top: 15px;
+}
+
 aside {
         margin-top: 50px;
         width: 200px;
@@ -51,16 +70,26 @@ aside {
         margin-right: 50px;
 }
 
-figure {
-        margin: 5px;
+aside h4 {
+        color: teal;
+        font-size: 16px;
+        text-align: center;
+        margin-top: 5px;
 }
 
-figure img {
-        max-width: 500px;
+aside figcaption {
+        font-weight: bold;
+        text-align: center;
+        font-size: 10px;
+        padding: 10px;
 }
 
 aside figure img {
         max-width: 190px;
+}
+
+figure {
+        margin: 5px;
 }
 
 footer {
